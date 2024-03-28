@@ -18,7 +18,7 @@ $(document).ready(function(){ // begin document.ready block
 	    	for(i = 0; i < schechter_carousel.length; i++) { 
 	    		// console.log(schechter_carousel[i].title)
 
-	    		var $cellElems = $('<div class="carousel-cell"><a href="'+schechter_carousel[i].link+'"><div class="story"><img src="'+schechter_carousel[i].photo+'"><div class="title">'+schechter_carousel[i].title+'</div></div></a></div>')
+	    		var $cellElems = $('<div class="carousel-cell"><a href="'+schechter_carousel[i].link+'" target="_blank"><div class="story"><img src="'+schechter_carousel[i].photo+'"><div class="title">'+schechter_carousel[i].title+'</div></div></a></div>')
 	    		$carousel.flickity( 'append', $cellElems);
 
 			}
