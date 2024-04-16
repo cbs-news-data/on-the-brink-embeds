@@ -9,7 +9,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-	$.get('stations-carousel-data.csv', function(csvString) {
+	$.get('carousel-data.csv', function(csvString) {
 
 			// Use PapaParse to convert string to array of objects
 	    	var stations_carousel = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
